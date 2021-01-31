@@ -1,0 +1,43 @@
+.Input {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  border: white;
+  margin-right: 2em;
+  padding-top: 18px;
+  padding-right: 25px;
+  padding-bottom: 18px;
+  background-color: #e4dcdc;
+  font-size: 34px;
+  width: 25em;
+  text-align: center;
+  color: #7653ae;
+}
+
+.LoginBtn {
+  font-size: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #8e66ce;
+  border-radius: 2em;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(248, 243, 243);
+  margin-top: 2em;
+}
+.Img {
+  width: 8em;
+  vertical-align: middle;
+  height: 8em;
+  display: inline-block;
+}
+
+.Header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 150px;
+  border-bottom: 3px solid #f3bb52;
+  background-color: #fcc257;
+}
