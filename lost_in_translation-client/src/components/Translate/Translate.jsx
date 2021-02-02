@@ -30,7 +30,6 @@ function Translate() {
             setInvalid('Use Engilsh letters please')
         }
 
-        // send word to db.json
     }
     return (     
         <div className="Header-section">
@@ -57,9 +56,9 @@ function Translate() {
                 letters.map(letter => <OutputSign letter={letter} />)
             }
               <span>{invalid}</span>
-        </div>
-    </div>
-    </div>
+         </div>
+         </div>
+      </div>
     )
     }
 

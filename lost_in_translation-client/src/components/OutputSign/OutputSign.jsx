@@ -6,10 +6,9 @@ function OutputSign({ letter }) {
            <li>
                <img className={styles.Sign} 
                src={require(`./individial_signs/${letter}.png`).default} alt={letter} />
-               </li> 
+           </li> 
         </ul>
         </div>
     )
 }
-
 export default OutputSign
