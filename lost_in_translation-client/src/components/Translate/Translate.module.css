@@ -1,0 +1,65 @@
+.TranslateWord {
+  display: flex;
+}
+
+.Result {
+  border: 2px solid #333;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-top: 18px;
+  padding: 16px 60px 18px 65px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  border-bottom: 10px solid #845ec2;
+  box-shadow: 2px 2px 4px rgba(61, 61, 61, 0.5);
+}
+.Header {
+  font-size: 1.2em;
+  color: white;
+  background-color: #ffc75f;
+  padding-bottom: 0.4em;
+  padding-top: 0.01%;
+  margin-bottom: 1em;
+  border-bottom: 5px solid #e7b355;
+}
+
+.Username {
+  padding-right: 18px;
+  font-size: 1em;
+  display: inline-block;
+  padding-left: 8em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Title {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Header {
+  padding-left: 15em;
+}
+
+.Img {
+  margin: 18px;
+  margin-top: 1em;
+  width: 5em;
+  vertical-align: middle;
+  height: 6em;
+}
+.Input {
+  font-size: 25px;
+  width: 30em;
+  border-radius: 22px;
+  border: 2px solid rgb(223, 214, 214);
+  vertical-align: middle;
+  margin-left: 15em;
+  color: #7653ae;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Sanchez", serif;
+  background-color: #efefef;
+}
