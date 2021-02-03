@@ -24,11 +24,9 @@ function Translate() {
     const TranslateInput = event => {
         setTranslateInput(event.target.value)
     }
-    const LogoutClick = () => {
-        
+    const LogoutClick = () => {    
         localStorage.clear();
         history.push("/Login");
-
     }
     const TranslateBtn = () => {
         if (textInput.match(/^[A-Za-z ]+$/)) { 
