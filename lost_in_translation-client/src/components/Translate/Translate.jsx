@@ -11,6 +11,7 @@ import { AppContext } from '../../AppProvider'
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import Button from '@material-ui/core/Button';
 import { useHistory } from 'react-router-dom';
+import { SendTranslate } from './TranslateAPI'
 
 
 function Translate() {
@@ -33,13 +34,15 @@ function Translate() {
             setInvalid(" ")
             const toLowercase = textInput.toLowerCase()
             const inputToArray = toLowercase.split('')
+            SendTranslate(inputToArray )
             setLetters(inputToArray)
+            
         } else {
             setLetters([])
             setInvalid('Use Engilsh letters please')
         }
 
-
+    
 
     }
     return (     
