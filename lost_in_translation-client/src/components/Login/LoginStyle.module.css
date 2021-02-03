@@ -1,5 +1,5 @@
 .Input {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sanchez", serif;
   border-radius: 25px;
   border: white;
   margin-right: 2em;
@@ -11,6 +11,7 @@
   width: 25em;
   text-align: center;
   color: #7653ae;
+  margin-left: 10em;
 }
 
 .LoginBtn {
@@ -28,16 +29,28 @@
   margin-top: 2em;
 }
 .Img {
-  width: 8em;
+  width: 10em;
   vertical-align: middle;
-  height: 8em;
+  height: 10em;
   display: inline-block;
+  margin-left: 20em;
 }
 
 .Header {
-  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1em;
+  font-family: "Love Ya Like A Sister", cursive;
+  border-bottom: 2px solid #e7b355;
+  padding-bottom: 1em;
   color: white;
-  margin-bottom: 150px;
-  border-bottom: 3px solid #f3bb52;
-  background-color: #fcc257;
+  background-color: #ffc75f;
+}
+
+.Tittle {
+  margin-left: 17em;
+  font-size: 40px;
+}
+
+.Titlle2 {
+  margin-left: 28em;
+  font-size: 25px;
 }

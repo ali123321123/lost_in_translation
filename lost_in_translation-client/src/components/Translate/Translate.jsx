@@ -1,16 +1,17 @@
 import Auth from "../../Auth/Auth"
 import { Link } from 'react-router-dom'
 import styles from './Translate.module.css'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import logo from './logo.png';
 import OutputSign  from '../OutputSign/OutputSign'
 import IconButton from '@material-ui/core/IconButton';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import PersonIcon from '@material-ui/icons/Person';
+import { AppContext } from '../../AppProvider'
 
 
 function Translate() {
-
+ const username = useContext(AppContext)
     const [letters, setLetters] = useState([])
     const [textInput, setTranslateInput] = useState('')
     const [invalid, setInvalid] = useState('')
@@ -36,7 +37,7 @@ function Translate() {
           <div className={styles.Header}>
             <img className={styles.Img} src={logo} alt='' />
             <h1 className={styles.Title}>Lost in Translation</h1>
-            <h3 className={styles.Username}>Username</h3>
+            <h3 className={styles.Username}>{username}</h3>
             <Link to='/Myprofile'>
             <PersonIcon/>
             </Link>
