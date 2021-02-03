@@ -1,14 +1,12 @@
 import styles from './OutputSign.module.css'
 function OutputSign({ letter }) {
     return (
-        <div className="output-section">
-        <ul className={styles.SignList}>
-           <li>
+           <span>
                <img className={styles.Sign} 
                src={require(`./individial_signs/${letter}.png`).default} alt={letter} />
-           </li> 
-        </ul>
-        </div>
+           </span> 
+       
+    
     )
 }
 export default OutputSign
